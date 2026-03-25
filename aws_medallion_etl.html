@@ -97,15 +97,19 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/azure/first_medallion_basic_etl/pipeline_view.JPG" alt="Portfolio Image" class="img-fluid" loading="lazy">
+                  <img src="assets/img/portfolio/aws/first_medallion_basic_etl/02_medallian_setup.png" alt="Portfolio Image" class="img-fluid" loading="lazy">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/azure/first_medallion_basic_etl/bronze_layer.jpg" alt="Portfolio Image" class="img-fluid" loading="lazy">
+                  <img src="assets/img/portfolio/aws/first_medallion_basic_etl/21_etl_changes_08.png" alt="Portfolio Image" class="img-fluid" loading="lazy">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/azure/first_medallion_basic_etl/pipeline_runtime.JPG" alt="Portfolio Image" class="img-fluid" loading="lazy">
+                  <img src="assets/img/portfolio/aws/first_medallion_basic_etl/13_athena_query_output.png" alt="Portfolio Image" class="img-fluid" loading="lazy">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/aws/first_medallion_basic_etl/21_etl_changes_13.png" alt="Portfolio Image" class="img-fluid" loading="lazy">
                 </div>
 
               </div>
@@ -118,7 +122,7 @@
               <h3>Project Information</h3>
               <ul>
                 <li><strong>Category:</strong>Medallion Architecture Basic ETL Demo</li>
-                <li><strong>Category:</strong>Azure</li>
+                <li><strong>Category:</strong>AWS</li>
                 <li><strong>Project GIT URL:</strong><a href="https://github.com/Priyank-Sharma-89/Project_Details_Snapshots/blob/main/Azure/Medallion_ETL_Project" target="_blank">Click Here</a></li>
               </ul>
             </div>
@@ -131,38 +135,24 @@
                 Cloud ETL Pipeline with Medallion Architecture.
               </p>
               <p>
-                Problem Statement: In real-world data engineering systems, raw data often arrives in messy formats containing missing values, incorrect formats, duplicates, and inconsistent schema. This project demonstrates how a cloud data pipeline can ingest messy CSV data and progressively clean and transform it using the Medallion Architecture pattern (Bronze → Silver → Gold).
+                Just like my Azure's first project, I have implemented & showcased the same medallion architecture setup in AWS ecosystem.
+                <br><br>
+                Considering all the learning i gathered in Azure, I thought this project will be similar to implement on conceptual level since its just the change of cloud and change of services, basic core concepts remain same, however, to my surprise, in AWS, willingly or unwillingly, I learnt much more than core concepts and much more than whatever I learnt in Azure.
+                <br><br>
+                AWS challenged me in many of its quirky ways, and gave me opportunity to learn way beyond than just the ETL pipeline flow.
+                <br><br>
+                So, the core learning, features and explanations remain the same as Azure Medallion ETL pipeline (you may refer it to see what I am talking about), but whatever additional I learnt, I will list it out here, also, do make sure to checkout the GIT repo of this project, as I have shown my entire progress, and not just learning, whatever challenges I faced, in detailed visuals with the help of screenshots.
               </p>
-              <p style="margin-bottom:0;">
-                Features:
-              </p>
-              <ul style="margin-bottom:0;">
-                <li>Ingest messy CSV data</li>
-                <li>Clean and validate records</li>
-                <li>Implement Bronze → Silver → Gold architecture</li>
-                <li>Aggregate daily sales metrics</li>
-              </ul>
-              <br>
               <p style="margin-bottom:0;">
                 Key Learnings:
               </p>
               <ul style="margin-bottom:0;">
-                <li>Creating pipelines in Azure Data Factory</li>
-                <li>Configuring linked services and datasets</li>
-                <li>Implementing Copy Activity for data movement</li>
-                <li>Understanding Azure Blob Storage containers</li>
-                <li>Monitoring pipeline runs and execution logs</li>
-              </ul>
-              <br>
-              <p style="margin-bottom:0;">
-                Scope of further Enhancement:
-              </p>
-              <ul style="margin-bottom:0;">
-                <li>Data Validation Step can be added</li>
-                <li>Make parameterized pipelines</li>
-                <li>Implement incremental loading</li>
-                <li>Add data transformation using Azure Databricks</li>
-                <li>Load data into Azure SQL Database</li>
+                <li>AWS Console & UI</li>
+                <li>Selecting the right Region globally for all services, or how services in console are tied to the selected/default non selected region.</li>
+                <li>Understanding of Data Catalog, Database/Table creation and Crawler. How they function in comparison to LinkedServices and Dataset in Azure.</li>
+                <li>Athena to view or query Data. Understanding that Athena does not hold data, data always remain in S3.</li>
+                <li>IAM role</li>
+                <li>Pipeline creation & Transformation in Glue.</li>
               </ul>
               <br>
 
