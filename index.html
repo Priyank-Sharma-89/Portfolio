@@ -111,14 +111,14 @@
         <div class="row">
           <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="200">
             <div class="profile-card">
-              <div class="profile-header">
+              <!-- <div class="profile-header">
                 <div class="profile-image">
                   <img src="assets/img/profile/profile-square-3.webp" alt="Profile Image" class="img-fluid">
                 </div>
                 <div class="profile-badge">
                   <i class="bi bi-check-circle-fill"></i>
                 </div>
-              </div>
+              </div> -->
 
               <div class="profile-content">
                 <h3>Priyank Sharma</h3>
@@ -255,6 +255,24 @@
 
       <div class="col-xl-3 col-lg-4 col-md-6">
         <div class="skill-card text-center p-4 shadow-sm rounded">
+          <h4>Azure DataFactory</h4>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="skill-card text-center p-4 shadow-sm rounded">
+          <h4>Azure Synapse</h4>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="skill-card text-center p-4 shadow-sm rounded">
+          <h4>AWS S3, Glue</h4>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="skill-card text-center p-4 shadow-sm rounded">
           <h4>Power BI</h4>
         </div>
       </div>
@@ -267,7 +285,13 @@
 
       <div class="col-xl-3 col-lg-4 col-md-6">
         <div class="skill-card text-center p-4 shadow-sm rounded">
-          <h4>Cloud (Azure/AWS)</h4>
+          <h4>Databricks</h4>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="skill-card text-center p-4 shadow-sm rounded">
+          <h4>Airflow</h4>
         </div>
       </div>
 
@@ -299,9 +323,15 @@
                 <h5>Feb 2024 - Sept 2025</h5>
                 <p class="company"><i class="bi bi-building"></i> Nykaa, Mumbai</p>
                 <ul>
-                  <li>ETL & Data pipeline development through SSIS.</li>
-                  <li>Built SSAS cubes to provide analytics ready data.</li>
-                  <li>Automation and Job scheduling through SQL Server Agent.</li>
+                  <li>Maintained and optimized the Master Data pipeline ingesting ~90% of POS, Retail, and E-commerce master data nightly from Data Warehouse into a unified SQL Server database.</li>
+                  <li>Built SSIS-based ETL pipelines to integrate manual data from multiple CSV/Excel sources into SQL Server, reducing manual intervention.</li>
+                  <li>Developed SSAS cubes as a centralized analytics layer, enabling business teams to access pre-calculated KPIs and analytics-ready data quickly.</li>
+                  <li>Implemented automation for handling incoming manual files, significantly reducing manual effort and data errors.</li>
+                  <li>Automated heavy operational reports such as Hourly Inventory Snapshot, Opening Inventory, WH Availability, and Open PO Status, reducing data preparation time from 3–4 hours to a few minutes and delivering reports via scheduled email jobs.</li>
+                  <li>Led automation of the Monthly OppLoss report, reducing processing time from 1 full day to ~2 hours, with automated data sharing and email summaries.</li>
+                  <li>Used Python + Redshift to overcome SSIS memory limitations and ingest 15M SKU records, reducing processing time from 1.5+ hours to ~10 minutes.</li>
+                  <li>Designed a fault-tolerant ETL architecture with staging layers to ensure pipeline failures do not impact BAU operations.</li>
+                  <li>Implemented core ETL practices including incremental loading and de-duplication.</li>
                 </ul>
               </div>
 
@@ -310,9 +340,9 @@
                 <h5>Nov 2022 - Jul 2023</h5>
                 <p class="company"><i class="bi bi-building"></i> ScatterPie Analytics, Delhi</p>
                 <ul>
-                  <li>Dashboard and KPI development.</li>
-                  <li>Data Analysis.</li>
-                  <li>Scheduled Refresh.</li>
+                  <li>Enhanced existing large-scale Power BI solutions by adding new KPIs and visual analytics aligned with business objectives.</li>
+                  <li>Participated in sprint reviews and stakeholder demos to explain insights and usability of newly developed KPIs.</li>
+                  <li>Administered Power BI workspaces, managing user access, scheduled refreshes, and dashboard alerts.</li>
                 </ul>
               </div>
 
@@ -321,9 +351,10 @@
                 <h5>May 2022 - Oct 2022</h5>
                 <p class="company"><i class="bi bi-building"></i> The Modern Data Company, Indore</p>
                 <ul>
-                  <li>Big Data Ingestion through PySpark.</li>
-                  <li>Data Profiling and Data Quality analysis on large Google Analytics dataset.</li>
-                  <li>RFM, Trend, & Customer Churn Analysis.</li>
+                  <li>Performed data profiling and data quality analysis on large Google Analytics datasets.</li>
+                  <li>Worked on flattening deeply nested schemas for analytical consumption.</li>
+                  <li>Conducted analytical use cases such as RFM analysis, trend analysis, and customer churn analysis.</li>
+                  <li>Generated insights including MoM revenue trends, top-performing products, and sales distribution.</li>
                 </ul>
               </div>
 
@@ -398,7 +429,6 @@
                 <ul class="portfolio-filters isotope-filters">
                   <li data-filter=".filter-azure" class="filter-active">Azure</li>
                   <li data-filter=".filter-aws">AWS</li>
-                  <li data-filter=".filter-pbi">PowerBI</li>
                 </ul>
               </div>
             </div>
